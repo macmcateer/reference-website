@@ -1,0 +1,45 @@
+h1 {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 2em;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 5em;
+}
+
+h2 {
+    font: bold 10em/1.5rem "Helvetica", Arial, sans-serif;
+}
+
+h3 {
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-align: center;
+    text-indent: .5em;
+    text-shadow: .2em .2em green;
+}
+
+a:link, a:visited {
+    background-color: purple;
+    color: white;
+    border-color: white;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    background-color: white;
+    color: purple;
+    border-color: purple;
+    border-radius: 2px;
+    font-size: 5em;
+}
+
+
+a:default {
+    padding: 3em;
+    margin: auto;
+    background-color: white;
+    color:red;
+    border-color: yellow;
+    border-radius: 5px;
+}
